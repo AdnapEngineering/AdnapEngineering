@@ -1,17 +1,18 @@
 ### Hi, I'm Justin 👋
 
-I'm a full-stack engineer with a frontend focus. Before I joined BILL's engineering team I ran customer support operations at Invoice2Go, so I build with the user in mind. For four years at BILL I shipped fintech SaaS in React and TypeScript, with backend work in its Java, GraphQL and DynamoDB services.
+I'm a full-stack engineer who likes working on growth: signup, onboarding, activation, and the experiments that show whether a change helped. Before I joined BILL's engineering team I ran customer support operations at Invoice2go, so I've seen firsthand where users get stuck. For four years at BILL I shipped fintech SaaS in React and TypeScript, with backend work in its Java, GraphQL and DynamoDB services.
 
-Platform and DX work is my favorite part, because it makes the next engineer's day easier.
-
-**Stack:** TypeScript · React · Angular · GraphQL · Java · Node · PostgreSQL · DynamoDB · AWS · Jest · Playwright
+**Stack:** TypeScript · React · Angular · GraphQL · Java · Node · Python · PostgreSQL · DynamoDB · AWS · Jest · Playwright<br>
+**Growth tooling:** LaunchDarkly · Mixpanel · Segment · Datadog RUM
 
 ### Projects
 
-I've been enjoying [Astro](https://astro.build) lately for content-heavy sites. [**astro-baby-item-recalls**](https://github.com/AdnapEngineering/astro-baby-item-recalls) is a small public-service project built with it that tracks recent baby item recalls.
+[**job-search-pipeline**](https://github.com/AdnapEngineering/job-search-pipeline): I built my own job search as a funnel. It pulls postings from ATS feeds, LinkedIn, Indeed, Remote OK, Jobicy and HN "Who is hiring?", enriches them through each ATS's JSON API, scores them deterministically, then has an LLM grade the best ones against a 12-point rubric. The LLM has to quote the job description word for word to back its score, and Python checks the quote, so a hallucinated match can't make the cut. Matches go to Notion (or a plain `.txt` file) with an ntfy push. Every career-specific rule lives in `config.json`, so it works for any field, and the review step runs on Claude Code, Codex or agy. Python, cron, idempotent re-runs.
+
+[**astro-baby-item-recalls**](https://github.com/AdnapEngineering/astro-baby-item-recalls): a small public-service site built with [Astro](https://astro.build) that tracks recent baby item recalls.
 
 ### Elsewhere
 
-I'm open to **Senior Full-Stack** roles in the Portland metro area or US-remote.
+I'm open to **Growth Engineering**, **Senior Full-Stack** and **Frontend Platform / DX** roles, US-remote.
 
 [LinkedIn](https://www.linkedin.com/in/justin-karcher/)
